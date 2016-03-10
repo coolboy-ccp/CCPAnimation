@@ -13,6 +13,7 @@
 		0021B81A1C8FF3EA00462C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0021B8181C8FF3EA00462C6A /* Main.storyboard */; };
 		0021B81C1C8FF3EA00462C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0021B81B1C8FF3EA00462C6A /* Assets.xcassets */; };
 		0021B81F1C8FF3EA00462C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0021B81D1C8FF3EA00462C6A /* LaunchScreen.storyboard */; };
+		0021B82E1C900DC700462C6A /* SummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0021B82D1C900DC700462C6A /* SummyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0021B81B1C8FF3EA00462C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0021B81E1C8FF3EA00462C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0021B8201C8FF3EA00462C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0021B82C1C900DC700462C6A /* SummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummyView.h; sourceTree = "<group>"; };
+		0021B82D1C900DC700462C6A /* SummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0021B8131C8FF3EA00462C6A /* AppDelegate.m */,
 				0021B8151C8FF3EA00462C6A /* ViewController.h */,
 				0021B8161C8FF3EA00462C6A /* ViewController.m */,
+				0021B82C1C900DC700462C6A /* SummyView.h */,
+				0021B82D1C900DC700462C6A /* SummyView.m */,
 				0021B8181C8FF3EA00462C6A /* Main.storyboard */,
 				0021B81B1C8FF3EA00462C6A /* Assets.xcassets */,
 				0021B81D1C8FF3EA00462C6A /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0021B82E1C900DC700462C6A /* SummyView.m in Sources */,
 				0021B8171C8FF3EA00462C6A /* ViewController.m in Sources */,
 				0021B8141C8FF3EA00462C6A /* AppDelegate.m in Sources */,
 				0021B8111C8FF3EA00462C6A /* main.m in Sources */,
@@ -262,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCPAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCPAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +306,7 @@
 				0021B8251C8FF3EA00462C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
